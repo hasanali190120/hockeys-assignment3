@@ -22,6 +22,20 @@
       font-family: "Manrope",sans-serif;
     }
   </style>
+  <!-- color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'primary-color':'#FF4240',
+          }
+        }
+      }
+    }
+  </script>
+  <!--  -->
 
 
 </head>
@@ -46,7 +60,7 @@
       </div>
       <div class="navbar-start"><a class="font-manrope font-bold text-2xl">Hockey<span class="text-orange-400">’</span>s</a></div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1 gap-[44px]">
+        <ul class="menu text-base menu-horizontal px-1 gap-[44px]">
            <a href=""><span class="text-[#FF4240]">Home</span></a>
            <a href="">About</a>
            <a href="">Pages</a>
@@ -55,8 +69,8 @@
         </ul>
       </div>
       <div class="navbar-end gap-4">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <button class="btn btn-error">Get Ticket</button>
+       <ul class="text-black  hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></ul>
+       <a class="btn btn-error">Get Ticket</a>
        
       </div>
     </div>
@@ -100,7 +114,44 @@
     </div>
   </div>
 
-  <main>
+  <main class="container mx-auto lg:px-24 px-8 ">
+    <div class="text-center">
+      <h2 class="text-4xl font-semibold">Professional Hockeys Club</h2>
+      <p class="mt-6">The Professional Hockey Club stands as a beacon of excellence in the realm of ice sports,<br> boasting a rich history and a legacy of triumphs on the frozen battleground.</p>
+    </div>
+    <!-- percetence -->
+    <div class="flex flex-col md:flex-row justify-center items-center gap-14 mt-9">
+      <div class="text-center">
+        <div class="radial-progress text-red-500" style="--value:87;" role="progressbar"><span class="text-black text-2xl font-semibold">87%</span></div>
+        <h4 class="text-2xl mt-3 ">Prayer Facility</h4>
+        <p class="text-[#13131399] mt-3">A Prayer Facility serves <br>as a sacred space.</p>
+      </div>
+      <div class="text-center">
+        <div class="radial-progress text-green-400" style="--value:95;" role="progressbar"><span class="text-black text-2xl font-semibold">95%</span></div>
+        <h4 class="text-2xl mt-3 ">Experienced Coach</h4>
+        <p class="text-[#13131399] mt-3">
+          An experienced coach is a guiding<br> force, a mentor.</p>
+      </div>
+      <div class="text-center">
+        <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar"><span class="text-black text-2xl font-semibold">90%</span></div>
+        <h4 class="text-2xl mt-3 ">Senior Player</h4>
+        <p class="text-[#13131399] mt-3">A senior player in the <br>realm of sports carries .</p>
+      </div>
+      <div class="text-center">
+        <div class="radial-progress text-blue-400" style="--value:80;" role="progressbar"><span class="text-black text-2xl font-semibold">80%</span></div>
+        <h4 class="text-2xl mt-3 ">Training Ground</h4>
+        <p class="text-[#13131399] mt-3">A training ground is the beating<br> heart of an athlete's journey.</p>
+      </div>
+    </div>
+ <div class="text-center mt-28">
+  <h2 class="text-4xl font-semibold">Program Sections</h2>
+  <p class="mt-6">In the context of sports, program sections typically refer to distinct components,<br> phases, or elements within a training or competition regimen.</p>
+ </div>
+ <div class="">
+  <div class="bg-[url('./Images/2.png')]">
+
+  </div>
+ </div>
 
   </main>
   <footer>
